@@ -1,0 +1,15 @@
+Natural Language Processing is a branch of Artificial Intelligence.
+
+Python is a programming language used for software development.
+
+Tokenization splits text into smaller units called tokens.
+
+Stemming reduces words to their root forms.
+
+Lemmatization converts words into meaningful dictionary forms.
+
+Classification assigns data to predefined categories.
+
+Machine learning enables computers to learn patterns from data.
+
+Deep learning uses neural networks to learn complex patterns.

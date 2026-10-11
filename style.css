@@ -1,0 +1,174 @@
+
+/* Main application background and typography */
+.stApp {
+    background: #f7f8f3;
+    color: #26352c;
+}
+
+h1, h2, h3 {
+    color: #244b36;
+}
+
+/* Hero section */
+.hero-card {
+    background: linear-gradient(135deg, #244b36, #52795b);
+    color: #ffffff;
+    padding: 28px;
+    border-radius: 18px;
+    margin-bottom: 22px;
+}
+
+.hero-card h1 {
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-size: 2.2rem;
+}
+
+.hero-card p {
+    color: #edf4e9;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+/* Section cards */
+.section-card {
+    background: #ffffff;
+    border: 1px solid #e3e9df;
+    border-radius: 14px;
+    padding: 18px;
+    margin: 10px 0;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #edf2e8;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #244b36;
+}
+
+/* Buttons */
+.stButton button,
+.stDownloadButton button,
+.stFormSubmitButton button {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/* Metric cards */
+div[data-testid="stMetric"] {
+    background: #ffffff;
+    border: 1px solid #e3e9df;
+    border-radius: 14px;
+    padding: 16px;
+}
+
+/* Expanders and form containers */
+div[data-testid="stExpander"] {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e3e9df;
+}
+
+div[data-testid="stForm"] {
+    background: #ffffff;
+    border: 1px solid #e3e9df;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+/* Small labels */
+.eyebrow {
+    color: #d49a35;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.75rem;
+}
+
+div[data-testid="stProgress"] > div > div {
+    background-color: #52795b;
+}
+
+/* ---------- Quiz Results Dashboard ---------- */
+
+.results-hero {
+    background: linear-gradient(135deg, #244b36, #52795b);
+    color: #ffffff;
+    padding: 28px;
+    border-radius: 18px;
+    margin: 16px 0 22px 0;
+    text-align: center;
+}
+
+.results-hero .results-label {
+    color: #e4efdc;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.results-hero .results-score {
+    color: #ffffff;
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 8px 0;
+}
+
+.results-hero .results-message {
+    color: #f1f6ed;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.result-correct {
+    background: #edf7ed;
+    border-left: 5px solid #39834a;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 10px 0;
+}
+
+.result-incorrect {
+    background: #fff0ed;
+    border-left: 5px solid #c84b40;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 10px 0;
+}
+
+.result-question {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.result-answer {
+    margin: 5px 0;
+}
+
+.status-pill {
+    display: inline-block;
+    background: #e4f3e5;
+    color: #246b37;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin: 6px 0 12px 0;
+}
+
+.status-pending {
+    display: inline-block;
+    background: #fff3d9;
+    color: #805b13;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin: 6px 0 12px 0;
+}
